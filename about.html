@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Homeage,QJR">
-    <meta name="keywords" content="Homeage,QJR">
+    <meta name="description" content="About,QJR">
+    <meta name="keywords" content="About,QJR">
     <meta name="author" content="QJR">
-    <title>Homepage| QJR</title>
+    <title>About| QJR</title>
     <link rel="stylesheet" type="text/css" href="./assets/css/onlinewebfonts.css"/>
     <link rel="stylesheet" type="text/css" href="./assets/css/vno.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/vno/animate.css">
@@ -18,6 +18,8 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/vno/tomorrow.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/_layout.scss">
     <link rel="stylesheet" type="text/css" href="./assets/css/_panels.scss">
+    <link rel="stylesheet" type="text/css" href="./assets/css/_sass/media-queries.scss">
+
     <link rel="apple-touch-icon" href="./apple-touch-icon.png">
     <link rel="icon" href="./favicon.ico">
 </head>
@@ -48,15 +50,7 @@
                                     <li class="navigation__item">
                                         <a href="index.html" class="blog-button">HOME</a>
                                     </li>
-                                    <li class="navigation__item">
-                                        <a href="blog.html" class="blog-button">BLOG</a>
-                                    </li>
-                                    <li class="navigation__item">
-                                        <a href="intro.html" class="blog-button">INTRO</a>
-                                    </li>
-                                    <li class="navigation__item">
-                                        <a href="about.html" class="blog-button">ABOUT</a>
-                                    </li>
+                               
                                 </ul>
                             </nav>
                         </div>
@@ -70,14 +64,14 @@
                                         </a>
                                     </li>
                                     <li class="navigation__item">
-                                        <a href="http://www.cnblogs.com" title="cnblogs" target="_blank">
+                                        <a href="http://www.cnblogs.com/" title="cnblogs" target="_blank">
                                             <i class='social iconfont icon-cnblogs'></i>
                                             <span class="label">cnblogs</span>
                                         </a>
                                     </li>
 
                                     <li class="navigation__item">
-                                        <a href="https://www.zhihu.com" title="zhihu" target="_blank">
+                                        <a href="https://www.zhihu.com/" title="zhihu" target="_blank">
                                             <i class='social iconfont icon-zhihu'></i>
                                             <span class="label">zhihu</span>
                                         </a>
@@ -96,15 +90,46 @@
             </div>
             <div class="panel-cover--overlay cover-slate"></div>
         </div>
-        <div class="remark iUp">
-            <p class="power">Powered By 
-                <a href="https://github.com/features/actions" target="_blank"> GitHub Actions </a> And 
-                <a href="https://hitokoto.cn/" target="_blank"> Hitokoto </a>
-            </p>
-        </div>
     </header>
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            <div class="main-post-list">
+
+                <ol class="post-list">
+                  
+                  <ui>
+                    <h2 class="post-list__post-title post-title"><a title="访问 Hello World - Vno">About this website</a></h2>
+                    <p class="excerpt">This website is created for the project requested by our course. However, it's recently QJR's website now.</p>
+                    <hr class="post-list__divider">
+                  </ui>
+                  
+                  <ui>
+                    <h2 class="post-list__post-title post-title"><a  title="访问 Sample Post">Thanks To</a></h2>
+                    <p class="excerpt">The website imitate the work of the open sourse project of vno-jekyll, written with no themes, only by Html/css/js</p>
+                    <hr class="post-list__divider">
+                  </ui>
+                  <ui>
+                    <h2 class="post-list__post-title post-title"><a href="/2016/02/sample-post/" title="访问 Sample Post">Apology</a></h2>
+                    <p class="excerpt">Since this project will be post on github sooner, when I know rarely of the lisece and permission. I apologize for the offense in advance.</p>
+                    <hr class="post-list__divider">
+                  </ui>
+                </ol>
+              
+                <hr class="post-list__divider ">
+              
+              <nav class="pagination" role="navigation">
+                  
+                  <span class="pagination__page-number">1 / 1</span>
+                  
+              </nav>
+              
+              
+              </div>
+        </div>
+    </div>
     <script type="text/javascript" src="https://unpkg.com/dmego-home-page@latest/assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="./assets/js/main.js"></script>
+    <script type="text/javascript" src="./assets/js/slide.js"></script>
     <script type="text/javascript" src="./assets/json/images.json?cb=getBingImages"></script>
 
 </body>
